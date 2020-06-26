@@ -1,0 +1,6 @@
+User created{"email":"asdasd@asdasd.aa1593192512","name":"asdasd@asdasd.aa","updated_at":"2020-06-26T17:28:32.000000Z","created_at":"2020-06-26T17:28:32.000000Z","id":10}
+{"email":"asdasd@asdasd.aa1593192529","name":"asdasd@asdasd.aa","updated_at":"2020-06-26T17:28:50.000000Z","created_at":"2020-06-26T17:28:50.000000Z","id":11}
+{"id":7,"name":"asdasd@asdasd.aa","email":"asdasd@asdasd.aa1593192125","email_verified_at":null,"created_at":"2020-06-26T17:22:06.000000Z","updated_at":"2020-06-26T17:22:06.000000Z"}
+{"id":7,"name":"asdasd@asdasd.aa","email":"asdasd@asdasd.aa1593192125","email_verified_at":null,"created_at":"2020-06-26T17:22:06.000000Z","updated_at":"2020-06-26T17:22:06.000000Z"}
+{"id":7,"name":"asdasd@asdasd.aa","email":"asdasd@asdasd.aa1593192125","email_verified_at":null,"created_at":"2020-06-26T17:22:06.000000Z","updated_at":"2020-06-26T17:22:06.000000Z"}
+{"email":"asdasd@asdasd.aa1593193029","name":"asdasd@asdasd.aa","updated_at":"2020-06-26T17:37:09.000000Z","created_at":"2020-06-26T17:37:09.000000Z","id":12}

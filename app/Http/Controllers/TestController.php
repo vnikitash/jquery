@@ -9,26 +9,39 @@
 namespace App\Http\Controllers;
 
 
+use App\Http\Requests\CreateTestRequest;
+use App\Service\TestService;
 use Illuminate\Http\Request;
+use Illuminate\Support\Arr;
 
 class TestController
 {
+
+    private $service;
+
+    public function __construct(TestService $service)
+    {
+        $this->service = $service;
+    }
+
     //GET /products
     public function index(Request $request)
     {
         return view('home');
     }
 
-    //GET /products/1
+    //GET /test/1
     public function show($testId)
     {
 
     }
 
     //POST /test
-    public function store()
+    public function store(CreateTestRequest $request)
     {
-        die("test POST");
+        $data = $request->validated();
+
+        return $this->service->createTestEntity(Arr::get($data, 'name'));
     }
 
     //PUT/PATCH /products/11
@@ -40,6 +53,11 @@ class TestController
     //DELETE /products/id
     public function destroy($destroyId)
     {
-        die("DELETE $destroyId");
+        return $this->service->deleteById($destroyId);
+    }
+
+    public function getListAsJson()
+    {
+        return $this->service->getListOfItems();
     }
 }
