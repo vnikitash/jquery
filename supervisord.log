@@ -1,0 +1,57 @@
+2020-06-26 16:54:04,150 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-06-26 16:54:04,151 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2020-06-26 16:54:04,152 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2020-06-26 16:54:04,153 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2020-06-26 16:54:04,153 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2020-06-26 16:54:04,154 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2020-06-26 16:54:04,155 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2020-06-26 16:54:04,174 INFO RPC interface 'supervisor' initialized
+2020-06-26 16:54:04,179 INFO supervisord started with pid 1
+2020-06-26 16:54:05,187 INFO spawned: 'syslogd' with pid 346
+2020-06-26 16:54:05,191 INFO spawned: 'php-fpmd' with pid 347
+2020-06-26 16:54:05,194 INFO spawned: 'crond' with pid 348
+2020-06-26 16:54:05,215 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2020-06-26 16:54:05,217 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2020-06-26 16:54:06,922 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-06-26 16:54:13,424 WARN received SIGQUIT indicating exit request
+2020-06-26 16:54:13,507 INFO waiting for php-fpmd, crond, syslogd to die
+2020-06-26 16:54:15,475 INFO stopped: crond (terminated by SIGTERM)
+2020-06-26 16:54:15,523 INFO stopped: php-fpmd (exit status 0)
+2020-06-26 16:54:16,530 INFO waiting for syslogd to die
+2020-06-26 16:54:16,637 INFO stopped: syslogd (exit status 0)
+2020-06-26 16:54:32,379 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-06-26 16:54:32,382 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2020-06-26 16:54:32,383 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2020-06-26 16:54:32,384 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2020-06-26 16:54:32,386 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2020-06-26 16:54:32,395 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2020-06-26 16:54:32,399 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2020-06-26 16:54:32,416 INFO RPC interface 'supervisor' initialized
+2020-06-26 16:54:32,429 INFO supervisord started with pid 1
+2020-06-26 16:54:33,435 INFO spawned: 'syslogd' with pid 294
+2020-06-26 16:54:33,438 INFO spawned: 'php-fpmd' with pid 295
+2020-06-26 16:54:33,443 INFO spawned: 'crond' with pid 296
+2020-06-26 16:54:33,454 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2020-06-26 16:54:33,457 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2020-06-26 16:54:34,685 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-06-26 16:55:30,977 WARN received SIGQUIT indicating exit request
+2020-06-26 16:55:30,980 INFO waiting for php-fpmd, crond, syslogd to die
+2020-06-26 16:55:32,988 INFO stopped: crond (terminated by SIGTERM)
+2020-06-26 16:55:33,008 INFO stopped: php-fpmd (exit status 0)
+2020-06-26 16:55:34,014 INFO waiting for syslogd to die
+2020-06-26 16:55:34,119 INFO stopped: syslogd (exit status 0)
+2020-06-26 16:56:44,160 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-06-26 16:56:44,161 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2020-06-26 16:56:44,162 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2020-06-26 16:56:44,163 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2020-06-26 16:56:44,164 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2020-06-26 16:56:44,165 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2020-06-26 16:56:44,166 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2020-06-26 16:56:44,185 INFO RPC interface 'supervisor' initialized
+2020-06-26 16:56:44,191 INFO supervisord started with pid 1
+2020-06-26 16:56:45,199 INFO spawned: 'syslogd' with pid 308
+2020-06-26 16:56:45,204 INFO spawned: 'php-fpmd' with pid 309
+2020-06-26 16:56:45,213 INFO spawned: 'crond' with pid 310
+2020-06-26 16:56:45,228 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2020-06-26 16:56:45,230 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2020-06-26 16:56:46,393 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
